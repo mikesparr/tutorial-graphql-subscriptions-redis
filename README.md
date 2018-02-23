@@ -28,7 +28,7 @@ export REDIS_PORT=6379
 ```
 
  3. Make sure Redis is running
-  * Mac users: `brew install redis && brew services redis start`
+  * Mac users: `brew install redis && brew services start redis`
 
  4. Start the server
   * `npm start`

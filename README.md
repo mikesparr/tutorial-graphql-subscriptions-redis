@@ -23,7 +23,6 @@ npm install
 ```
 # environment variables for application
 export SERVER_PORT=3000
-export APOLLO_ENGINE_KEY=<YOUR ENGINE KEY>
 export REDIS_HOST=localhost
 export REDIS_PORT=6379
 ```

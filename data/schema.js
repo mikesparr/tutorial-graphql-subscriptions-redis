@@ -7,7 +7,7 @@ type Message {
     content: String
 }
 type Query {
-  messages: [String!]!
+  messages: [Message!]!
 }
 type Mutation {
   addMessage(message: String!): [String!]!

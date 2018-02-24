@@ -77,3 +77,4 @@ redis-cli PUBLISH "messageAdded" '{"messageAdded": {"id": "555", "content": "Hel
  * You need to publish a server with subscriptions for clients to use the feature
  * You must wrap Express with another http client in `server.js` for web socket conn
  * Redis PubSub messages must include wrapper object with schema subscription name
+ * To handle incoming messages from Redis you need to use `pubsub.subscribe()`

@@ -1,5 +1,6 @@
 import Config from '../config';
 import { RedisPubSub } from 'graphql-redis-subscriptions';
+import * as moment from 'moment';
 const Redis = require('ioredis');
 
 // Instantiate Redis clients

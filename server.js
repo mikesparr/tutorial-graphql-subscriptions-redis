@@ -18,7 +18,7 @@ import schema from './data/schema';
 const server = express();
 
 // origin must be same as your client URI
-server.use('*', cors({ origin: `http://localhost:${Config.serverPort}` }));
+server.use('*', cors({ origin: `http://localhost:3001` }));
 
 // endpoint for clients to interact with server
 server.use('/graphql', bodyParser.json(), graphqlExpress({ 

@@ -26,6 +26,7 @@
     "graphql-subscriptions": "^0.5.8",
     "graphql-tools": "^2.21.0",
     "ioredis": "^3.2.2",
+    "moment": "^2.22.2",
     "subscriptions-transport-ws": "^0.9.6"
   },
   "repository": {
